@@ -1,0 +1,24 @@
+import { StyleSheet } from "react-native";
+import { colors } from "@/styles/colors";
+import { coolDownAsync } from "expo-web-browser";
+
+export const styles = StyleSheet.create({
+    container: {
+        flexDirection: 'row',
+        width: "100%",
+        alignItems:"center",
+        gap:12
+    },
+    detais:{
+        flex:1
+    },
+    name:{
+        color: colors.gray[100],
+        fontSize: 16,
+        fontWeight: "600"
+    },
+    url:{
+        color: colors.gray[400],
+        fontSize: 14,
+    }
+})
